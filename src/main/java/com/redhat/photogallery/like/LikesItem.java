@@ -1,9 +1,8 @@
 package com.redhat.photogallery.like;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class LikesItem extends PanacheEntityBase {
